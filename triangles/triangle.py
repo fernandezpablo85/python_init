@@ -9,4 +9,3 @@ def draw(n):
     """
     # implement this.
     return "TODO"
-
