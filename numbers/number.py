@@ -1,14 +1,14 @@
 def add(a, b):
-    pass
-
+    print(a+b)
 
 def is_even(n):
-    pass
-
-
+    print(n%2 == 0)
+    
 def is_odd(n):
-    pass
-
+    print(n%2 != 0)
 
 def sum_all(arr):
-    pass
+    add_all = 0
+    for numb in arr:
+        add_all = (add_all + numb)
+    print(add_all)
