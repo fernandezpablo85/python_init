@@ -12,3 +12,6 @@ def sum_all(*arr):
     for numb in arr:
         add_all = add_all + numb
     return add_all
+
+def is_prime(*p):
+    pass
