@@ -10,5 +10,5 @@ def is_odd(n):
 def sum_all(*arr):
     add_all = 0
     for numb in arr:
-        add_all = (add_all + numb)
-    return(add_all)
+        add_all = add_all + numb
+    return add_all
