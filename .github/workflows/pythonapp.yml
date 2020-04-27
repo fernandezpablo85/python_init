@@ -30,7 +30,7 @@ jobs:
 
     - name: Lint with flake8
       run: |
-        make lint
+        make ci_lint
 
     - name: Test with pytest
       run: |
