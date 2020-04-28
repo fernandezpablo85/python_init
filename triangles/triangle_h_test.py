@@ -3,7 +3,6 @@ import pytest
 from hypothesis import given, strategies as st
 
 
-@pytest.mark.skip()
 @given(st.integers(min_value=1, max_value=100))
 def test_triangle_characters(n):
     t = triangle.draw(n=n)

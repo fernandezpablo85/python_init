@@ -1,11 +1,10 @@
 def draw(n):
-    """draws a triangle of n rows, for example for n == 5:
+    for i in range(0,n):
+        for j in range(0,i+1):
+            print('*',end=' ')
+        print ('\n')
 
-    *
-    * *
-    * * *
-    * * * *
-    * * * * *
-    """
-    # implement this.
-    return "TODO"
+
+def drawn(n):
+    for i in range(0,n):
+        print((i+1)*'* ')
