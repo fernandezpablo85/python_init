@@ -32,14 +32,14 @@ def test_is_prime():
     assert not number.is_prime(9)
 
 
-@pytest.mark.skip()
+#@pytest.mark.skip()
 def test_sum_all_array():
     assert number.sum_all([1, 2, 3, 4]) == 10
     assert number.sum_all([1]) == 1
     assert number.sum_all([1, 1, -1, -1]) == 0
 
 
-@pytest.mark.skip()
+#@pytest.mark.skip()
 def test_sum_all_array_varags():
     assert number.sum_all(1, 2, 3, 4) == 10
     assert number.sum_all(1) == 1
