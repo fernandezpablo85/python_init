@@ -1,19 +1,12 @@
-def draw(n,t=1):
-    while n > 0:
-        print('* '*(n-n+t))
-        return draw(n-1,t+1)
+def draw(n):
+    triangulo = []
+    for i in range (0,n):
+        triangulo.append(line(i+1))
+    print('\n'.join(triangulo))
+    #return '\n'.join(triangulo)
 
-def draws(i):
-    #if i == 0:
-    #    return ""
-    #else:
-    while i > 0:
-        print('* '*i)
-        return draws(i-1)
-    
-def triangle(i, t=0):
-    if i == 0:
-        return 0
-    else:
-        print(' ' * ( t + 1 ) + '*' * ( i * 2 - 1 ))
-        return triangle( i - 1, t + 1 )
+def line(x):
+    linea = []
+    for i in range(0,x):
+        linea.append('*')
+    return ' '.join(linea)    
