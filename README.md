@@ -52,7 +52,7 @@ La versión de git no es demasiado importante. Cualquier instalación relativame
 
 ### Forkear el repositorio
 
-Lo primero que tenemos que hacer es forkear este repositorio (copiarlo) para que quede bajo nuestro usuario de github, si no tenemos una, [acá hay un tutorial de cómo crearla](https://help.github.com/es/github/getting-started-with-github/signing-up-for-a-new-github-account) (no es necesario pagar, con la versión gratis es más que suficiente).
+Lo primero que tenemos que hacer es forkear este repositorio (copiarlo) para que quede bajo nuestro usuario de github, si no tenemos una cuenta, [acá hay un tutorial de cómo crearla](https://help.github.com/es/github/getting-started-with-github/signing-up-for-a-new-github-account) (no es necesario pagar, con la versión gratis es más que suficiente).
 
 Para más información de como forkear el repositorio [ver este documento](https://help.github.com/es/github/getting-started-with-github/fork-a-repo)
 
