@@ -22,9 +22,9 @@ Python Init __no__ es:
 
 Antes de comenzar, nuestra computadora debería contar con:
 
-- python 3 (es importante que __no__ sea python 2)
+- python 3 (es importante que __no__ sea python 2) - [como instalarlo](https://realpython.com/installing-python/)
 
-- git
+- git - [como instalarlo](https://www.digitalocean.com/community/tutorials/how-to-contribute-to-open-source-getting-started-with-git)
 
 Y nosotros deberíamos contar con conocimientos básicos de como usar git y github. Hay un excelente video introductorio de [Brian Yu](https://www.youtube.com/watch?v=MJUJ4wbFm_A)
 
@@ -187,7 +187,7 @@ Deberíamos a esta altura tener modificaciones en el archivo `numbers.py` y `num
 
 ## Generando un Pull Request
 
-Una vez qu tenemos los cambios pusheados a nuestro repositorio, mandamos un pull request al repositorio original. Más detalles sobre este proceso [en el siguiente artículo](https://help.github.com/es/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork).
+Una vez que tenemos los cambios pusheados a nuestro repositorio, mandamos un pull request al repositorio original. Más detalles sobre este proceso [en el siguiente artículo](https://help.github.com/es/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork).
 
 ## Esperar Feedback
 
