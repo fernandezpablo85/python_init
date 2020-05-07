@@ -3,7 +3,6 @@ import pytest
 import number
 
 
-@pytest.mark.skip()
 def test_sum_two_numbers():
     assert number.add(1, 2) == 3
 
