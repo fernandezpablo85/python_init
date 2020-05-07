@@ -3,24 +3,40 @@ def add(a, b):
 
 
 def is_even(n):
-    pass
+    return n % 2 == 0
 
 
 def is_odd(n):
-    pass
+    return n%2 != 0
 
+
+def is_prime(n):
+    
+    if n < 2:
+        return False
+    
+    if n == 2:
+        return True
+    
+    for i in range(3,n):
+        if n % i == 0:
+            return False
+    return True
+        
 
 def sum_all(arr):
-    pass
+    return sum(arr)
 
 
 def most_popular(arr):
-    """Return the number that appears more times in the array (the most popular one). If there are
-    two numbers that appear the same number of times, return the lowest
+
+    counter = 0
+    num = arr[0]
+
+    for i in arr:
+        frecuency = arr.count(i)
+        if (frecuency > counter):
+            counter = frecuency
+            num = i
     
-    Examples:
-    
-    * [1] => 1
-    * [1, 2] => 1
-    * [1, 1, 3, 3, 3, 4, 4, 4] => 3"""
-    pass
+    return num
