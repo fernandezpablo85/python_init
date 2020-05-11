@@ -6,3 +6,4 @@ def draw(n):
 
 def line(x):
     return ' '.join(['*'] * x)
+
