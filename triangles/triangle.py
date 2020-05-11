@@ -1,11 +1,8 @@
 def draw(n):
-    """draws a triangle of n rows, for example for n == 5:
+    triangulo = []
+    for i in range (0,n):
+        triangulo.append(line(i+1))
+    return '\n'.join(triangulo)
 
-    *
-    * *
-    * * *
-    * * * *
-    * * * * *
-    """
-    # implement this.
-    return "TODO"
+def line(x):
+    return ' '.join(['*'] * x)
