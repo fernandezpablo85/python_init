@@ -5,7 +5,5 @@ def draw(n):
     return '\n'.join(triangulo)
 
 def line(x):
-    new_line = []
-    for i in range(0,x):
-        new_line.append('*')
-    return ' '.join(new_line)    
+    return ' '.join(['*'] * x)
+
