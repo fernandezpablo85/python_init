@@ -2,8 +2,10 @@ import triangle
 import pytest
 from hypothesis import given, strategies as st
 
+""" Hice una funcion en triangle.py, que logra la imagen, pero no entiendo como pasarsela a estas funciones """
 
-@pytest.mark.skip()
+
+
 @given(st.integers(min_value=1, max_value=100))
 def test_triangle_characters(n):
     t = triangle.draw(n=n)
